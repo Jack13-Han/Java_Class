@@ -10,21 +10,54 @@ public class JKad07S {
         int x= in.nextInt();
 
         int random = ball.nextInt(3);
-
         if (x==0){
-            System.out.println("あなたはグーを出した！");
-            if (x!=1){
-                System.out.println("コンピュータはチョキを出した！");
-                System.out.println("あなたの勝ち！");
-            }if (x!=2){
-                System.out.println("コンピュータはパーを出した！");
+            System.out.println("あなたは グーを出した！");
+            if (random == 0) {
+                System.out.println("コンピュータは グーを出した！");
+                System.out.println("あいこだ！");
+            }
+            if (random ==1){
+                System.out.println("コンピュータは チョキを出した！");
                 System.out.println("あなたの負け！");
+            }
+            if (random ==2){
+                System.out.println("コンピュータは パーを出した！");
+                System.out.println("あなたの勝ち！");
             }
         }
         if (x==1){
-            System.out.println("あなたはチョキを出した！");
+            System.out.println("あなたは チョキを出した！");
+            if (random == 0) {
+                System.out.println("コンピュータは グーを出した！");
+                System.out.println("あなたの負け！");
+
+            }
+            if (random ==1){
+                System.out.println("コンピュータは チョキを出した！");
+                System.out.println("あいこだ！");
+            }
+            if (random ==2){
+                System.out.println("コンピュータは パーを出した！");
+                System.out.println("あなたの勝ち！");
+
+            }
         }
-        if (x==2)
-            System.out.println("あなたはパーを出した！");
+        if (x==2){
+            System.out.println("あなたは パーを出した！");
+            if (random == 0) {
+                System.out.println("コンピュータは グーを出した！");
+                System.out.println("あなたの勝ち！");
+
+            }
+            if (random ==1){
+                System.out.println("コンピュータは チョキを出した！");
+                System.out.println("あなたの負け！");
+            }
+            if (random ==2){
+                System.out.println("コンピュータは パーを出した！");
+                System.out.println("あいこだ！");
+
+            }
+        }
     }
 }
