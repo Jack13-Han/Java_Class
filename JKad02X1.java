@@ -1,51 +1,14 @@
-public class JKad02X1{
-	public static void main(String[] args){
-		//int n = 10;
-		//int sum=0;
-		
-		//System.out.println("n ‚Ì’l‚Í");
-		//System.out.println(n);
-		
-		//System.out.println("*** 1 ‚©‚çn ‚Ü‚Å‰ÁZ‚µ‚Ü‚·I ***");
-		//System.out.println("Œ‹‰Ê‚Í");
-		
-		
-		//for (int i =0 ;i<=n;++i){
-		//	sum +=i;
-			
-		//}
-		//System.out.println(sum);
-	
-		
-		//int y=0;
-		//int x=100;
-		//System.out.println("n ‚Ì’l‚Í");
-		//System.out.println(x);	
-		
-		//System.out.println("*** 1 ‚©‚çn ‚Ü‚Å‰ÁZ‚µ‚Ü‚·I ***");
-		//System.out.println("Œ‹‰Ê‚Í");
-		
-		//for (int i =1 ;i <=x ; ++i){
-		//	y += i;
-		//}
-		//System.out.println(y);
-		
-		
-		loop(10);
-		loop(100);
-		
-	}
-	
-	public static void loop(int n){
-		System.out.println("n ‚Ì’l‚Í");
-		System.out.println(n);	
-		
-		System.out.println("*** 1 ‚©‚çn ‚Ü‚Å‰ÁZ‚µ‚Ü‚·I ***");
-		System.out.println("Œ‹‰Ê‚Í");
-		int sum = 0;
-		for (int i =0 ;i<=n;++i){
-			sum +=i;
-		}
-		System.out.println(sum);
-	}
+public class JKad02X1 {
+    public static void main(String[] args) {
+        int n =10;
+        int sum = 0;
+        System.out.println("n ã®å€¤");
+        System.out.println(n);
+        System.out.println("*** 1 ã‹ã‚‰n ã¾ã§åŠ ç®—ã—ã¾ã™ï¼ ***");
+        System.out.println("çµæœã¯");
+        for (int i=1 ;n>=i ;i++){
+            sum+=i;
+        }
+        System.out.println(sum);
+    }
 }
